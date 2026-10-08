@@ -1,0 +1,15 @@
+# API clients
+openai              # GPT-5-mini: synthetic data generation
+google-genai        # Gemini: baseline
+python-dotenv       # to load API keys
+
+# Data processing
+pandas              
+spacy               # Spanish sentence splitting. also run: python -m spacy download es_core_news_sm
+tqdm                # progress bars for long loops
+pymupdf
+
+# Evaluation (T11)
+sacrebleu           # BLEU
+rouge-score         # ROUGE-L
+bert-score          # BERTScore (installs PyTorch)
