@@ -1,0 +1,37 @@
+LITERARY SENTENCE DATASET
+============================================================
+Total sentences: 4200
+Works: 7   Authors: 5   Countries: 5
+Words per sentence: mean 20.5, median 20, min 8, max 40
+
+PER WORK
+------------------------------------------------------------
+Gabriel Garcia Marquez - Cien anos de soledad
+  raw sentences: 5540   passed filters: 3292   sampled: 600   mean words: 23.7
+  removed: too_short 548, too_long 876, dialogue 629, incomplete 179, digits_or_symbols 16, duplicate 0
+Gabriel Garcia Marquez - Cronica de una muerte anunciada
+  raw sentences: 1354   passed filters: 775   sampled: 600   mean words: 22.9
+  removed: too_short 152, digits_or_symbols 34, dialogue 156, incomplete 126, too_long 110, duplicate 1
+Horacio Quiroga - Cuentos de amor de locura y de muerte
+  raw sentences: 3199   passed filters: 1470   sampled: 600   mean words: 18.0
+  removed: too_short 601, incomplete 205, dialogue 838, digits_or_symbols 32, too_long 53, duplicate 0
+Isabel Allende - La Ciudad de las Bestias
+  raw sentences: 4545   passed filters: 2920   sampled: 600   mean words: 21.8
+  removed: incomplete 14, too_short 306, too_long 148, dialogue 1155, digits_or_symbols 2, duplicate 0
+Isabel Allende - La casa de los espiritus
+  raw sentences: 7140   passed filters: 4494   sampled: 600   mean words: 22.1
+  removed: too_short 797, too_long 955, dialogue 880, incomplete 9, digits_or_symbols 5, duplicate 0
+Jorge Luis Borges - Ficciones
+  raw sentences: 2174   passed filters: 1445   sampled: 600   mean words: 18.6
+  removed: digits_or_symbols 151, incomplete 118, too_long 126, too_short 310, dialogue 24, duplicate 0
+Mario Vargas Llosa - La ciudad y los perros
+  raw sentences: 10388   passed filters: 4447   sampled: 600   mean words: 16.6
+  removed: incomplete 1025, too_short 4009, digits_or_symbols 54, too_long 255, dialogue 598, duplicate 0
+
+PER COUNTRY
+------------------------------------------------------------
+Chile: 1200 (29%)
+Colombia: 1200 (29%)
+Argentina: 600 (14%)
+Peru: 600 (14%)
+Uruguay: 600 (14%)

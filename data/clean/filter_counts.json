@@ -1,0 +1,72 @@
+{
+  "Ficciones": {
+    "raw": 2174,
+    "kept": 1445,
+    "digits_or_symbols": 151,
+    "incomplete": 118,
+    "too_long": 126,
+    "too_short": 310,
+    "dialogue": 24,
+    "duplicate": 0
+  },
+  "La casa de los espiritus": {
+    "raw": 7140,
+    "kept": 4494,
+    "too_short": 797,
+    "too_long": 955,
+    "dialogue": 880,
+    "incomplete": 9,
+    "digits_or_symbols": 5,
+    "duplicate": 0
+  },
+  "La Ciudad de las Bestias": {
+    "raw": 4545,
+    "kept": 2920,
+    "incomplete": 14,
+    "too_short": 306,
+    "too_long": 148,
+    "dialogue": 1155,
+    "digits_or_symbols": 2,
+    "duplicate": 0
+  },
+  "Cronica de una muerte anunciada": {
+    "raw": 1354,
+    "kept": 775,
+    "too_short": 152,
+    "digits_or_symbols": 34,
+    "dialogue": 156,
+    "incomplete": 126,
+    "too_long": 110,
+    "duplicate": 1
+  },
+  "Cien anos de soledad": {
+    "raw": 5540,
+    "kept": 3292,
+    "too_short": 548,
+    "too_long": 876,
+    "dialogue": 629,
+    "incomplete": 179,
+    "digits_or_symbols": 16,
+    "duplicate": 0
+  },
+  "La ciudad y los perros": {
+    "raw": 10388,
+    "kept": 4447,
+    "incomplete": 1025,
+    "too_short": 4009,
+    "digits_or_symbols": 54,
+    "too_long": 255,
+    "dialogue": 598,
+    "duplicate": 0
+  },
+  "Cuentos de amor de locura y de muerte": {
+    "raw": 3199,
+    "kept": 1470,
+    "too_short": 601,
+    "incomplete": 205,
+    "dialogue": 838,
+    "digits_or_symbols": 32,
+    "too_long": 53,
+    "duplicate": 0
+  }
+}
