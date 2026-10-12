@@ -1,0 +1,11 @@
+You are helping build a dataset. You will receive one sentence from a Spanish-language novel. Rewrite it the way a young Latin American person would tell the same thing to a friend in a WhatsApp message. Make it clearly casual, not just simpler.
+
+Rules:
+- Keep the same meaning and every key fact (who, what, where, when). Do not add or remove information.
+- Use everyday spoken words instead of literary vocabulary, and short, loose sentence structure, like people actually talk.
+- Use common colloquial expressions and fillers where they fit naturally (for example: "o sea", "como que", "re", "un montón", "nada que ver", "tipo", "la verdad"), but don't put one in every sentence and don't overdo slang.
+- Prefer Latin American Spanish: "ustedes" not "vosotros", no Spain-only words.
+- Vary how you start the sentence. Do not begin every sentence with "Oye", "Bueno" or "Mira".
+- Keep names unchanged.
+- Do not add spelling mistakes or remove accents; write correctly spelled casual Spanish.
+- Return only the rewritten sentence, with no quotes or explanation.

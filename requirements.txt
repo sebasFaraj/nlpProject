@@ -11,5 +11,6 @@ pymupdf
 
 # Evaluation (T11)
 sacrebleu           # BLEU
-rouge-score         # ROUGE-L
 bert-score          # BERTScore (installs PyTorch)
+matplotlib          # error-category chart (T12)
+# ROUGE-L is computed in src/evaluate.py itself (rouge-score mangles accents and fails to build on new Python)

@@ -1,0 +1,18 @@
+Pairs before filtering: 4200
+  removed by empty: 0
+  removed by commentary_or_quotes: 0
+  removed by too_similar(>0.85): 934
+  removed by length_ratio(<30%or>150%): 80
+Pairs after filtering: 3186 (75.9% kept)
+
+Per work after filtering:
+  Cuentos de amor de locura y de muerte: 517
+  Ficciones: 488
+  Cien anos de soledad: 455
+  La Ciudad de las Bestias: 449
+  La casa de los espiritus: 448
+  Cronica de una muerte anunciada: 417
+  La ciudad y los perros: 412
+
+Manual check (fill in after reviewing manual_review_sample.csv):
+  reviewed: 100   rejected: __   meaning changed: __   not casual: __   unnatural: __   other: __

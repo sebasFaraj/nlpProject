@@ -1,0 +1,22 @@
+Overlap check: passed (no id in more than one split)
+
+train: 2548 pairs | avg words input 21.9 | avg words output 21.1 | with added errors 49%
+    Isabel Allende: 724
+    Gabriel Garcia Marquez: 701
+    Horacio Quiroga: 400
+    Jorge Luis Borges: 388
+    Mario Vargas Llosa: 335
+val: 318 pairs | avg words input 21.4 | avg words output 20.6 | with added errors 51%
+    Isabel Allende: 95
+    Gabriel Garcia Marquez: 70
+    Horacio Quiroga: 58
+    Jorge Luis Borges: 55
+    Mario Vargas Llosa: 40
+test: 320 pairs | avg words input 21.1 | avg words output 20.4 | with added errors 50%
+    Gabriel Garcia Marquez: 101
+    Isabel Allende: 78
+    Horacio Quiroga: 59
+    Jorge Luis Borges: 45
+    Mario Vargas Llosa: 37
+
+Limitation: sentences from the same book appear in every split.
