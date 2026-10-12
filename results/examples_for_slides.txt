@@ -1,8 +1,8 @@
-[STRONG] garciamarquez_cronicadeunamuerteanunciada_0062  (good)
-  input:     santiago Nasar cruzó la casa a paso largo, con los gritos de alegría del barco del obispo retumbando detrás.
-  baseline:  Santiago Nasar atravesó la casa a grandes pasos, con la algarabía del buque del obispo retumbándole a la espalda.
-  reference: Santiago Nasar atravesó a pasos largos la casa en penumbra, perseguido por los bramidos de júbilo del buque del obispo.
-  note:      Literary and faithful; fixed the lowercase start
+[STRONG] garciamarquez_cronicadeunamuerteanunciada_0135  (good)
+  input:     Se volvio a recostar en el respaldo del mecedor y cerro otra vez los ojos.
+  baseline:  Volvió a recostarse en el respaldo de la mecedora y cerró de nuevo los ojos.
+  reference: Luego recostó la cabeza en el espaldar del mecedor, y volvió a cerrar los ojos.
+  note:      Fixed both accents and raised the register without adding anything
 
 [STRONG] allende_lacasadelosespiritus_0081  (good)
   input:     al final se animo a agarrar la cucharita de mango largo y, con un suspiro de felicidad, la metió en la crema.
@@ -10,26 +10,26 @@
   reference: Finalmente se atrevió a tomar la cucharilla de mango largo y con un suspiro de dicha, la hundió en la crema.
   note:      Fixed 3 errors; almost identical to the reference
 
-[STRONG] quiroga_cuentosdeamordelocuraydemuerte_0226  (good)
-  input:     Desde lo profundo del monte, el malacara contestaba a los relinchos largos de su compañero con unos cortos y veloces, como prometiendo que iban a comer un monton.
-  baseline:  Desde lo profundo del monte, el malacara respondía a los largos relinchos de su compañero con otros breves y presurosos, como una promesa de abundante pasto.
-  reference: De la profundidad del monte, el malacara respondía a los relinchos vibrantes de su compañero con los suyos cortos y rápidos, en que había una fraternal promesa de abundante comida.
-  note:      Turns 'comer un montón' into 'promesa de abundante pasto'; fixed the accent
+[STRONG] quiroga_cuentosdeamordelocuraydemuerte_0071  (good)
+  input:     Volteé a mirar la sala y enseguida clavé la vista en un palco bajo.
+  baseline:  Volví la mirada hacia la sala y, de inmediato, fijé los ojos en un palco bajo.
+  reference: Volví la cabeza a la sala, y detuve enseguida los ojos en un palco bajo.
+  note:      Faithful, literary
 
-[WEAK] garciamarquez_cronicadeunamuerteanunciada_0003  (over_embellishment)
-  input:     Al final, Crónica de una muerte anunciada también es como una tragedia moderna, ¿no?
-  baseline:  A fin de cuentas, *Crónica de una muerte anunciada* participa también de la índole de una tragedia moderna, ¿verdad?
-  reference: Porque al fin y al cabo Crónica de una muerte anunciada es también una tragedia moderna.
-  note:      Stilted 'participa de la índole de'; added markdown asterisks; kept the question form
+[WEAK] borges_ficciones_0187  (regional_flattening)
+  input:     Todos decidieron irse a la cárcel, para estafar a la Compañía.
+  baseline:  Todos decidieron marchar a la cárcel, con el propósito de estafar a la Compañía.
+  reference: Todos optaron por la cárcel, para defraudar a la Compañía.
+  note:      'marchar a la cárcel' reads Peninsular; 'con el propósito de' pads
 
-[WEAK] llosa_laciudadylosperros_0104  (over_embellishment)
-  input:     y estaba repleto de gente; los soldados habían traído sillas del comedor, o capaz fue en otra ocasión, pero la cosa es que había demasiada gente, imposible distinguir al general Mendoza entre tanto uniforme.
-  baseline:  Y estaba atestado de gente; los soldados habían acarreado sillas del comedor, o acaso fue en otra ocasión, pero el hecho es que había un gentío excesivo, y resultaba imposible distinguir al general Mendoza entre semejante profusión de uniformes.
-  reference: Y estaba lleno de gente, los soldados habían traído sillas del comedor o eso fue otra vez, pero digamos que estaba lleno de gente, imposible distinguir al general Mendoza entre tanto uniforme.
-  note:      'gentío excesivo', 'semejante profusión de uniformes': far wordier than the input
+[WEAK] llosa_laciudadylosperros_0447  (over_embellishment)
+  input:     Después llegaron dos mujeres cargadas con un montón de botellas de cerveza
+  baseline:  Luego llegaron dos mujeres cargadas con una multitud de botellas de cerveza.
+  reference: Después entraron dos mujeres trayendo muchas botellas de cerveza.
+  note:      'una multitud de botellas': forced word, not idiomatic
 
 [WEAK] allende_lacasadelosespiritus_0490  (register_collapse)
   input:     Había madurado y ya no era un joven exaltado, pero seguía igual en lo político: pensaba que sin una revolución violenta no se podía derrotar a la derecha.
   baseline:  Había madurado y ya no era un joven exaltado, pero en política seguía siendo el mismo: pensaba que sin una revolución violenta era imposible derrotar a la derecha.
   reference: Había madurado y ya no era un joven exaltado, pero no había variado ni un ápice en su línea política y seguía pensando que sin una revolución violenta, sería imposible vencer a la derecha.
-  note:      Near copy of the input; correct but not literary
+  note:      Near copy of the input
