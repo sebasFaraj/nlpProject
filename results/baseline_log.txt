@@ -1,0 +1,28 @@
+model: gemini-3.8-flash
+date: 2026-10-12T01:02
+temperature: 0.0
+test sentences: 320
+few-shot example ids (from train, seed 42): ['allende_laciudaddelasbestias_0479', 'allende_laciudaddelasbestias_0326', 'garciamarquez_cienanosdesoledad_0592', 'llosa_laciudadylosperros_0381', 'llosa_laciudadylosperros_0054']
+
+ZERO-SHOT PROMPT (system instruction; the casual sentence is the user message):
+Rewrite the following casual Spanish text as polished literary Spanish, in the style of South American literary prose. Correct any spelling, accent, or grammar errors. Keep exactly the same meaning. Return only the rewritten text.
+
+FEW-SHOT PROMPT:
+Rewrite the following casual Spanish text as polished literary Spanish, in the style of South American literary prose. Correct any spelling, accent, or grammar errors. Keep exactly the same meaning. Return only the rewritten text.
+
+Examples:
+
+Casual: por primera vez desde que el chico recordaba, su abuela se adelantó y le dio un cariño
+Literary: Por primera vez desde que el muchacho podía recordar, su abuela tomó la iniciativa de hacerle un cariño.
+
+Casual: Pasó el tiempo y el chico fue perdiendo la noción de las horas, del lugar, hasta de qué tan real era todo, y se fue hundiendo en un miedo terrible y un cansancio profundo.
+Literary: Pasaron las horas y el muchacho fue perdiendo el sentido del tiempo, del espacio, de su propia realidad y hundiéndose en un estado de terror y profunda fatiga.
+
+Casual: Después Alfonso y German se fueron un sábado pensando volver el lunes, y nunca mas se supo de ellos
+Literary: Luego se fueron Alfonso y Germán, un sábado, con la idea de regresar el lunes, y nunca se volvió a saber de ellos.
+
+Casual: pero los sabados, en cambio, caminaba por el Portal lleno y ruidoso mas despacio, siempre mirando al frente y medio orgullosa en secreto: le gustaba que los hombres la elogiaran y le gustaba no tener que volver a trabajar por la tarde.
+Literary: Pero los sábados, en cambio, recorría el atestado y ruidoso Portal más despacio, mirando siempre al frente, secretamente complacida: era agradable que los hombres la elogiaran, era agradable no tener que volver al trabajo en la tarde.
+
+Casual: Puaf, dice el Rulos mientras chupa un hueso: la carne quedo toda chamuscada y con pelos
+Literary: Puaf, decía el Rulos, chupando un hueso, la carne ha quedado toda chamuscada y con pelos.

@@ -1,0 +1,4 @@
+system,n,BLEU,ROUGE-L,avg_output_words,avg_reference_words,spain_form_outputs,BERTScore-F1
+copy-input,320,33.92,0.5935,21.1,20.4,0,0.8656
+zero-shot,320,23.17,0.5049,23.6,20.4,0,0.836
+few-shot,320,35.37,0.5968,21.4,20.4,0,0.8714

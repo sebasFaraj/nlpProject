@@ -1,6 +1,7 @@
 """Shared helpers: API clients with retries, and a parallel runner that saves progress."""
 
 import os
+import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
@@ -48,14 +49,18 @@ def call_openai(instructions, text):
 
 # ---------- Gemini (baseline) ----------
 _gemini = None
+_gemini_lock = threading.Lock()
 _gemini_no_thinking = True
 
 def call_gemini(system, text, temperature=0.0):
     global _gemini, _gemini_no_thinking
     from google.genai import types
     if _gemini is None:
-        from google import genai
-        _gemini = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+        # Lock so parallel workers share one client; extra clients get closed mid-request.
+        with _gemini_lock:
+            if _gemini is None:
+                from google import genai
+                _gemini = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
     def go():
         global _gemini_no_thinking

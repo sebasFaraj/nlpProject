@@ -12,5 +12,6 @@ pymupdf
 # Evaluation (T11)
 sacrebleu           # BLEU
 bert-score          # BERTScore (installs PyTorch)
+transformers<5      # bert-score 0.3.13 crashes on empty outputs with transformers 5.x
 matplotlib          # error-category chart (T12)
 # ROUGE-L is computed in src/evaluate.py itself (rouge-score mangles accents and fails to build on new Python)
