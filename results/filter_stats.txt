@@ -13,6 +13,3 @@ Per work after filtering:
   La casa de los espiritus: 448
   Cronica de una muerte anunciada: 417
   La ciudad y los perros: 412
-
-Manual check (fill in after reviewing manual_review_sample.csv):
-  reviewed: 100   rejected: __   meaning changed: __   not casual: __   unnatural: __   other: __

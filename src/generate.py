@@ -6,7 +6,7 @@ Usage (from the repo root):
     python src/generate.py                # full run (safe to stop and rerun; it resumes)
 
 Reads:  data/clean/literary_sentences.csv, src/prompts/generation_prompt.txt
-Writes: data/synthetic/pairs_raw.csv   (checkpointed every 100 sentences)
+Writes: data/synthetic/intermediate/pairs_raw.csv   (checkpointed every 100 sentences)
         data/synthetic/pairs.csv       (after add_errors.py runs)
         results/generation_log.txt
 """
@@ -22,7 +22,7 @@ from common import OPENAI_MODEL, call_openai, run_parallel
 
 SENTENCES = Path("data/clean/literary_sentences.csv")
 PROMPT = Path("src/prompts/generation_prompt.txt")
-RAW_OUT = Path("data/synthetic/pairs_raw.csv")
+RAW_OUT = Path("data/synthetic/intermediate/pairs_raw.csv")
 LOG = Path("results/generation_log.txt")
 
 

@@ -1,5 +1,5 @@
 """
-WRITTEN BY CLAUDE
+T3: convert each book PDF to a plain-text file.
 
 Usage (from the repo root):
     python src/pdf_to_text.py

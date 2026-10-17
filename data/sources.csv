@@ -1,0 +1,8 @@
+author,country,work,year,raw_file
+Gabriel Garcia Marquez,Colombia,Cien anos de soledad,1967,data/raw/garciamarquez_cienanosdesoledad.txt
+Gabriel Garcia Marquez,Colombia,Cronica de una muerte anunciada,1981,data/raw/garciamarquez_cronicadeunamuerteanunciada.txt
+Horacio Quiroga,Uruguay,Cuentos de amor de locura y de muerte,1917,data/raw/quiroga_cuentosdeamordelocuraydemuerte.txt
+Isabel Allende,Chile,La casa de los espiritus,1982,data/raw/allende_lacasadelosespiritus.txt
+Isabel Allende,Chile,La Ciudad de las Bestias,2002,data/raw/allende_laciudaddelasbestias.txt
+Jorge Luis Borges,Argentina,Ficciones,1944,data/raw/borges_ficciones.txt
+Mario Vargas Llosa,Peru,La ciudad y los perros,1963,data/raw/llosa_laciudadylosperros.txt

@@ -8,7 +8,7 @@ With 50% probability per sentence, apply 1-2 of these at random (seed 42):
   - drop the final period
 
 Usage (normally called automatically by generate.py):
-    python src/add_errors.py                # data/synthetic/pairs_raw.csv -> data/synthetic/pairs.csv
+    python src/add_errors.py                # data/synthetic/intermediate/pairs_raw.csv -> data/synthetic/pairs.csv
 """
 
 import random
@@ -21,7 +21,7 @@ import pandas as pd
 
 SEED = 42
 ERROR_PROB = 0.5
-IN_PATH = Path("data/synthetic/pairs_raw.csv")
+IN_PATH = Path("data/synthetic/intermediate/pairs_raw.csv")
 OUT_PATH = Path("data/synthetic/pairs.csv")
 
 ACCENTED = re.compile(r"[áéíóúÁÉÍÓÚüÜ]")

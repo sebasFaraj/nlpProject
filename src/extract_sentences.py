@@ -1,6 +1,4 @@
 """
-Written by Sebastian, with help from claude for the regexes
-
 T4: clean ONE book and add a sample of its good sentences to the dataset.
 
 Usage (from the repo root, once per book):

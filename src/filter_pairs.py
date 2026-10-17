@@ -61,8 +61,6 @@ def main():
     lines += [f"Pairs after filtering: {len(out)} ({len(out) / before:.1%} kept)",
               "", "Per work after filtering:"]
     lines += [f"  {w}: {n}" for w, n in out["work"].value_counts().items()]
-    lines += ["", "Manual check (fill in after reviewing manual_review_sample.csv):",
-              "  reviewed: 100   rejected: __   meaning changed: __   not casual: __   unnatural: __   other: __"]
     STATS.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print("\n".join(lines))
 

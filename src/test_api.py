@@ -42,7 +42,7 @@ def test_openai():
 def test_gemini():
     from google import genai
 
-    model = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+    model = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
     client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
     response = client.models.generate_content(model=model, contents=TEST_SENTENCE)
     print(f"[ OK ] Gemini ({model}) replied: {response.text.strip()}")
